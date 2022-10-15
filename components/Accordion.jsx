@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import data from "../data";
 
 export default () => {
-  return data.map((item, index) => <Accordion item={item} index={index} />);
+  return data.map((item, index) => <Accordion key={item.category} item={item} index={index} />);
 };
 
 const Accordion = ({ item, index }) => {
