@@ -1,9 +1,18 @@
-import Content from './../components/Accordion';
+import Content from "./../components/Accordion";
 
 export default function Home() {
   return (
-    <main>
-      <Content/>
-    </main>
-  )
+    <>
+      <div className="hero">
+        <h1>حين نتعارف... ماذا نسأل ؟</h1>
+        <span>
+          فيما يلي مجموعة من الأسلئة المساعدة في مرحلة التعارف, مأخوذة من كتاب
+          "نصفي الاخر" للكاتب محسن عباس ولدي.<br/> ترجمة السيد عباس نورالدين
+        </span>
+      </div>
+      <main>
+        <Content />
+      </main>
+    </>
+  );
 }

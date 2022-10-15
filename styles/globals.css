@@ -14,9 +14,20 @@ body {
   background: #eee;
   overflow-x: hidden;
 }
-
+.hero {
+    background: #0055ff;
+    color: white;
+    text-align: center;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
 main {
-  width: 88vw;
+  margin: 40px auto;
+  width: 90vw;
 }
 .accordion-header {
   background: #0055ff;
