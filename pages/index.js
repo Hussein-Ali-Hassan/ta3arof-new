@@ -12,6 +12,9 @@ export default function Home() {
         </span>
       </div>
       <main>
+        <span style={{ display: "block", textAlign: "center" }}>
+          اضغط على القسم للاطلاع على الأسئلة
+        </span>
         <Content />
       </main>
     </>
