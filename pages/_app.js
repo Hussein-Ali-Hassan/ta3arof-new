@@ -20,9 +20,8 @@ function PageHead() {
       <meta property="og:title" content="حين نتعارف...ماذا نسأل؟" />
       <meta
         property="og:description"
-        content="مجموعة من الأسلئة المساعدة في مرحلة التعارف"
+        content="مجموعة من الأسئلة المساعدة في مرحلة التعارف"
       />
-      <meta property="og:url" content="https://ta3arof.telickers.net/" />
     </Head>
   );
 }
