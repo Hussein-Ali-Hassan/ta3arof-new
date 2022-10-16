@@ -4,11 +4,11 @@ import { motion, AnimatePresence } from "framer-motion";
 import data from "../data";
 
 export default () => {
-  return data.map((item, index) => <Accordion key={item.category} item={item} index={index} />);
+  return data.map((item) => <Accordion key={item.category} item={item} />);
 };
 
-const Accordion = ({ item, index }) => {
-  const [expanded, setExpanded] = useState(index === 0 ? true : false);
+const Accordion = ({ item }) => {
+  const [expanded, setExpanded] = useState(false);
 
   // By using `AnimatePresence` to mount and unmount the contents, we can animate
   // them in and out while also only rendering the contents of open accordions
